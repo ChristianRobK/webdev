@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+  }
+.caveat {
+    font-family: 'Caveat', cursive;
+}
+.raleway {
+ font-family: 'Raleway', sans-serif;
+ }
+.mono {
+  font-family: 'Space Mono', monospace;
+}
+.titilium {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.h1 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+}
+.h2 {
+    font-weight:  400;
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.h3 {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+.square {
+    height: 200px;
+    width: 300px;
+}
+.black {
+    background-color: #00011f;
+    color: white;
+}
+.red {
+    background-color: #d81313;
+}
+.charcoal {
+    background-color: #5f4949;
+}
+.green {
+    background-color: #57fa00;
+}
+.skyblue {
+    background-color: #8880ff;
+}
+.maroon {
+    background-color: #82122A;
+}
+.gray {
+    background-color: #6a6868;
+
+}
+.white {
+    background-color: #f7fdfd;
+    border:  1px solid black;
+}
+h2, 
+.hero {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.colors {
+display: flex;
+flex-direction: column;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
